@@ -1,13 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import '@fontsource/roboto-mono'; /* Replace with a futuristic font of choice */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif, 'Roboto Mono', monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.text-neon-blue {
+  color: #08fdd8;
+}
+
+.bg-gradient-to-b {
+  background: linear-gradient(to bottom, #0d0d0d, #1a1a1a, #0d0d0d);
+}
+
+.hover\:shadow-neon-glow:hover {
+  box-shadow: 0 0 15px #08fdd8, 0 0 25px #08fdd8, 0 0 35px #08fdd8;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto Mono', monospace;
+  font-size: larger;
+  color: #9fa8da; /* Slightly transparent bluish color */
+}
+
+
+h1, h2, h3 {
+  font-family: 'Roboto Mono', monospace;
+  font-size: larger;
+  color: #9fa8da;
+}
+
+.bg-gradient-to-b {
+  background: linear-gradient(to bottom, #3b0765, #000);
+}
+
+.text-blue-300 {
+  color: rgba(139, 195, 255, 0.8);
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto Mono', monospace;
+  color: #9fa8da;
+}
+
+.bg-gradient-to-b {
+  background: linear-gradient(to bottom, #3b0765, #000);
+}
+
+.text-blue-300 {
+  color: rgba(139, 195, 255, 0.8);
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+/* Add this to your CSS file */
+
+.glow {
+  box-shadow: 0 0 10px #60a5fa, 0 0 20px #60a5fa, 0 0 30px #60a5fa; /* Customize the glow color as needed */
 }
